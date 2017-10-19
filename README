@@ -1,7 +1,7 @@
 What is it?
 ===========
 
-This is a Matlab that we provide to implement the methods of our ACM MM 2018 paper.
+This is a Matlab that we provide to implement the methods of our [ACM MM 2017](http://www.acmmm.org/2017/) paper.
  (paper homepage: https://arxiv.org/abs/1707.00809).
 This code implements 
 a) The framework of produce global image representation
