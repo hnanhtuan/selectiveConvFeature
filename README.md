@@ -36,6 +36,8 @@ Usage
 
 Files
 =====================
+|Filename|Description|
+|--------|----------|
 |README                      | This file|
 
 |main.m                      | The main script for running whole process|
