@@ -34,33 +34,29 @@ Usage
 1) Run the following script
 >> main
 
-Files
+Files and subfolders
 =====================
 |Filename|Description|
 |--------|----------|
 |README                      | This file|
-
 |main.m                      | The main script for running whole process|
 |opt.m                       | The script contains all parameter setting.|
-
 |extract_feature_map/        |Contains files for extracting conv. features. See the README file inside this folder for more information.|
-
-
+|---|---|
 |tools/make.m                |      Script to build the mex file for faemb and temb methods.|
-
 |tools/democratic/           |contains matlab script files for democratic pooling methods.|
 |tools/faemb/                |contains matlab script files for F-FAemb method.|
 |tools/faemb_mex/            |contains mex files for F-FAemb method.|
 |tools/triemb/               |contains matlab script/mex files for Triangular Embedding method.|
 |tools/evaluation/           |contains matlab script files for evaluation.|
 |tools/yael/                 |contains the yael library|
-          
+|---|---|
 |utils/embedding.m           |Process embedding and aggregating|
 |utils/apply_mask.m          |Compute and then apply mask on the conv. features.|
 |utils/crop_qim.m            |Crop query images.|
 |utils/learn_rn.m            |Learn projection (PCA/whitening) matrix|
 |utils/vecpostproc.m         |Apply post-processing|
-
+|---|---|
 |data/                       |contains ground truth and data. In case you may want to retrain, please download the provided data and put them in this folder|
 |data/workdir/               |contains output files (i.e., parameters, embedded features)|
 =====================
