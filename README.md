@@ -1,4 +1,4 @@
-What is it?
+Selective Deep Convolutional Features for Image Retrieval
 ===========
 
 ![alt text](images/masking_schemes.png)
@@ -7,11 +7,11 @@ This is a Matlab that we provide to implement the methods of our [ACM MM 2017](h
  (paper homepage: https://arxiv.org/abs/1707.00809).
 This code implements 
 1. The framework of produce global image representation
-..+ Pre-processing: PCA + l2-normalize
-..+ Masking scheme: MAX-mask/SUM-mask
-..+ Embedding: Triangular Embedding (Temb) [1] and Fast Function Approximation Embedding (F-FAemb) [2]
-..+ Aggregating: Democractic pooling [1]
-..+ Post-processing: rotation and whitening, Power-law normalization.
+..* Pre-processing: PCA + l2-normalize
+..* Masking scheme: MAX-mask/SUM-mask
+..* Embedding: Triangular Embedding (Temb) [1] and Fast Function Approximation Embedding (F-FAemb) [2]
+..* Aggregating: Democractic pooling [1]
+..* Post-processing: rotation and whitening, Power-law normalization.
 2. Extract conv. feature of images
 
 [1] Hervé Jégou and Andrew Zisserman. 2014. Triangulation embedding and democratic aggregation for image search. In CVPR.
@@ -41,7 +41,9 @@ Usage
 =============
 1) Modify the parameters in 'opt.m' file appropriately. 
 1) Run the following script
->> main
+```
+main
+```
 
 Files and subfolders
 =====================
