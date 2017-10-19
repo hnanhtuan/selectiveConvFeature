@@ -3,8 +3,8 @@ Selective Deep Convolutional Features for Image Retrieval
 
 ![alt text](images/masking_schemes.png)
 
-This is the Matlab implements of our methods accepted in [ACM MM 2017](http://www.acmmm.org/2017/).
- (paper homepage: https://arxiv.org/abs/1707.00809).
+This is the Matlab implements of our methods accepted in [ACM MM 2017](http://www.acmmm.org/2017/). [[pdf]](https://arxiv.org/abs/1707.00809)
+
 This code implements 
 1. The framework of produce global image representation
 * Pre-processing: PCA + l2-normalize
