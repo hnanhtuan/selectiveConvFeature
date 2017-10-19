@@ -8,22 +8,22 @@ Prerequisites
 =============
 
 The prerequisites are:
-⋅⋅* MatConvNet MATLAB toolbox 1.0-beta25
+* MatConvNet MATLAB toolbox 1.0-beta25
 
-⋅⋅* Images of Oxford5k and Paris6k datasets: http://www.robots.ox.ac.uk/~vgg/data/
-⋅⋅* Images of Holidays datasets: http://lear.inrialpes.fr/~jegou/data.php
-⋅⋅* Images of UKB datasets: http://www.mediafire.com/file/duhba0actb5c90d/UKB.tar (Nister D, Stewenius H (2006) Scalable recognition with a vocabulary tree. In: CVPR)
-⋅⋅* Images of Flickr100k: http://www.robots.ox.ac.uk/~vgg/data/oxbuildings/flickr100k.html
+* Images of Oxford5k and Paris6k datasets: http://www.robots.ox.ac.uk/~vgg/data/
+* Images of Holidays datasets: http://lear.inrialpes.fr/~jegou/data.php
+* Images of UKB datasets: http://www.mediafire.com/file/duhba0actb5c90d/UKB.tar (Nister D, Stewenius H (2006) Scalable recognition with a vocabulary tree. In: CVPR)
+* Images of Flickr100k: http://www.robots.ox.ac.uk/~vgg/data/oxbuildings/flickr100k.html
 
-⋅⋅* Pre-trained CNN models: VGG16. 
+* Pre-trained CNN models: VGG16. 
   The mat files containing the models can be downloaded at: https://www.mediafire.com/file/rx1liu6xl4ii9l0/imagenet-vgg-verydeep-16.mat 
 
 Usage
 =============
 1. Modify the parameters in 'main.m' file appropriately:
-⋅⋅* *lid*:          The index of conv. layer to extract features.
-⋅⋅* *max_img_dim*:  Resize to have max(W, H)=max_img_dim
-⋅⋅* *baseDir*:      The directory contains subfolders, which contains images
+* *lid*:          The index of conv. layer to extract features.
+* *max_img_dim*:  Resize to have max(W, H)=max_img_dim
+* *baseDir*:      The directory contains subfolders, which contains images
 2. Select the dataset to extract features.
 3. Run the following script
 ```
