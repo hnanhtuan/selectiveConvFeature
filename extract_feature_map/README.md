@@ -16,7 +16,7 @@ The prerequisites are:
 * Images of Flickr100k: http://www.robots.ox.ac.uk/~vgg/data/oxbuildings/flickr100k.html
 
 * Pre-trained CNN models: VGG16. 
-  The mat files containing the models can be downloaded at: https://www.mediafire.com/file/rx1liu6xl4ii9l0/imagenet-vgg-verydeep-16.mat 
+  The mat files containing the models can be downloaded at [MatConvnet website](http://www.vlfeat.org/matconvnet/pretrained/) or [my backup file](https://www.mediafire.com/file/rx1liu6xl4ii9l0/imagenet-vgg-verydeep-16.mat).
 
 Usage
 =============
